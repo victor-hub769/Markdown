@@ -1,0 +1,12 @@
+.inputs {
+  display: flex;
+  padding: 1em;
+  margin: 1em;
+}
+.labels {
+  padding-top: -2em;
+}
+.colorDiv {
+  height: 100px;
+  width: 100px;
+}
