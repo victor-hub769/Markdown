@@ -1,0 +1,29 @@
+.restarauntLogoTest {
+  font-family: 'Dancing Script', cursive;
+}
+.restarauntSearchBar {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #3A3A3A;
+  
+}
+.restaurantSearchBarContainer {
+  display: flex;
+  align-items: center;
+  padding: 0 35px 0 35px ;
+  margin-top: -50px;
+}
+.restaurantSearchIcon {
+  margin-left: -50px;
+}
+.restaurantTextFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.restaurantCard{
+    border-radius: 15px!important;
+}
+.restaurantCardImage{
+  height: 300px;
+}

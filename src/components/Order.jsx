@@ -1,11 +1,13 @@
 import React from 'react';
 import Details from './Details';
+import Navbar from './Navbar';
 const Order = () => {
   return (
-    <div>
+    <>
+    <Navbar/>
       <p>Thank yo for your order</p>
       <Details name = 'John Doe' address='405 Juja'/>
-    </div>
+    </>
   );
 };
 // const details =

@@ -1,5 +1,6 @@
 import React from 'react';
 import Names from './Names';
+import Navbar from './Navbar';
 const Greetings = () => {
   const name = {
     firstName: 'John',
@@ -17,7 +18,8 @@ const Greetings = () => {
   ];
 
   return (
-    <div>
+    <>
+    <Navbar/>
       {people.map((person) => {
         return (
           <p>
@@ -26,7 +28,7 @@ const Greetings = () => {
           </p>
         );
       })}
-    </div>
+    </>
   );
 };
 export default Greetings;

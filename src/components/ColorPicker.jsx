@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './colorPicker.css';
+import Navbar from './Navbar';
 
 function ColorPicker() {
   const [color, setColor] = useState({
@@ -8,7 +9,8 @@ function ColorPicker() {
     blue: ' 157',
   });
   return (
-    <div>
+    <>
+    <Navbar/>
       <div
         style={{ height: '100px', width: '100px', background: `rgb(${color.red},
          ${color.green}, ${color.blue})`  }}
@@ -44,7 +46,7 @@ function ColorPicker() {
         ></input>
         <br />
       </div>
-    </div>
+    </>
   );
 }
 const styles = {};

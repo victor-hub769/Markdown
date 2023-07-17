@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
+import Navbar from './Navbar';
 
 const AgeCalculator = () => {
   const [yob, setYob] = useState({
@@ -66,6 +67,7 @@ const AgeCalculator = () => {
   };
   return (
     <>
+    <Navbar/>
       <div className="body">
         <div style={styles.screen}>
           <div style={styles.all}>

@@ -1,6 +1,9 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 const Markdown = () => {
-  return <div>Markdown</div>;
+  return <>
+  <Navbar/>
+    Markdown</>;
 };
 export default Markdown;

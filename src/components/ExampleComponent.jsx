@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Navbar from './Navbar';
 function ExampleComponent() {
   const getSum = () => {
     let num1 = 10;
@@ -20,7 +21,8 @@ function ExampleComponent() {
   const [counter, setCounter] = useState(0);
   const [firstName, setFisrtName] = useState('');
   return (
-    <div>
+    <>
+    <Navbar/>
       <p> The counter is {counter} </p>
       <button onClick={() => setCounter(counter + 1)}>ADD</button>
       <button onClick={() => setCounter(counter - 1)}>Subtract</button>
@@ -35,7 +37,7 @@ function ExampleComponent() {
       {students.map((nmes) => {
         return <p>{nmes.name}</p>;
       })}
-    </div>
+    </>
   );
 }
 

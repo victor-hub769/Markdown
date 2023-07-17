@@ -1,0 +1,29 @@
+.nav {
+    color: black;
+    justify-content: flex-start;
+    padding: 2em;
+}
+.mav:visited{
+    color: black!important;
+}
+.nav:focus{
+    color: black;
+}
+.nav:link{
+    color: black;
+}
+.nav:active{
+    color:black
+}
+.nav:hover{
+    color: gold;
+}
+.ulBar{
+    display: flex;
+    justify-content: center;
+}
+.navBody{
+    margin: 0;
+    color: aquamarine;
+    background-color: aqua;
+}
